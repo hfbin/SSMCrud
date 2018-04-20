@@ -1,4 +1,5 @@
 #### **基础环境搭建**
+
 • 1、在idea创建一个maven工程 
 
 • 2、引入项目依赖的jar包
@@ -17,6 +18,7 @@
 
 
 #### **功能点**
+
 • 1、分页 
 
 • 2、数据校验 
@@ -28,6 +30,7 @@
 
 
 #### **技术点**
+
 • 基础框架-ssm（SpringMVC+Spring+MyBatis） 
 
 • 数据库-MySQL 
@@ -44,6 +47,7 @@
 >全程居于ajax
 
 ##### **所有的URI** 
+
 •/emps 查询所有的员工
 
 • /emp/{id} GET 查询员工 
@@ -58,6 +62,7 @@
 ![这里写图片描述](http://img.blog.csdn.net/20171104154615435?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzM1MjQxNTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 查询-逻辑
+
 • 1、index.jsp页面直接发送ajax请求进行员工分页数据的查询 
 
 • 2、服务器将查出的数据，以json字符串的形式返回给浏览器 
@@ -69,7 +74,9 @@
 ##### **CRUD-添加**
 ![这里写图片描述](http://img.blog.csdn.net/20171104155157853?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzM1MjQxNTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+
 新增-逻辑
+
 • 1、在index.jsp页面点击”新增” 
 
 • 2、弹出新增对话框 
@@ -87,6 +94,7 @@
 ![这里写图片描述](http://img.blog.csdn.net/20171104155639266?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzM1MjQxNTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 修改-逻辑
+
 • 1、点击编辑 
 
 • 2、弹出用户修改的模态框（显示用户信息） 
@@ -104,6 +112,7 @@
 ![这里写图片描述](http://img.blog.csdn.net/20171104155847494?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzM1MjQxNTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 多个删除与单个删除-逻辑
+
 • 1、点击单个或多个删除 
 
 • 2、弹出用户删除的提示框（显示姓名）
